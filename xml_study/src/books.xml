@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- CDATA标签加了后表示，这里面的内容是纯文本，不用进行xml语法解析 -->
+<books>
+    <book sn="sn123456700">
+        <name>时间简史</name>
+        <author>霍金</author>
+        <price>110</price>
+    </book>
+    <book sn="sn123456701">
+        <name>java</name>
+        <author>
+            <![CDATA[
+            java_auth >>>>>>>>>>
+            ]]>
+        </author>
+
+<!--        <author>java_auth</author>-->
+        <price>110</price>
+    </book>
+    <book sn="sn123456702">
+        <name>html</name>
+        <author>html_auth</author>
+        <price>110</price>
+    </book>
+</books>
